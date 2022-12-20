@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FLC Gallery</title>
+<meta charset="UTF-8">
+<link rel="icon" href="flcgraph-removebg-preview.png" type="image/x-icon">
+<link rel="shortcut icon" href="flclogo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+
+#bl{
+    text-decoration: none;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+audio { width: 550px; display: block; margin:20px; }
+</style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+    <div class="w3-bar w3-navy w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-navy" href="javascript:void(0);"  onclick="myFunction()" title="Toggle Navigation Menu"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><img src="flcgraph-removebg-preview.png" height="35px" width="35px"></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-padding-large w3-white">FLC Gallery</a>
+    </div>
+
+    <!-- Navigation Bar on smaller screens -->
+    <div id="navDemo" class="w3-bar-block w3-navy w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-padding-large">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-padding-large">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-padding-large">FLC Gallery</a>
+    </div>
+</div>
+
+<!-- Title -->
+<div class="w3-container w3-navy w3-padding-64">
+    <div class="w3-content">
+        <h1>FLC Gallery</h1>
+    </div>
+</div>
+
+<!-- Gallery -->
+<div class="w3-white w3-padding-64">
+    <div class="w3-content">
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+              <div class="numbertext">1 / 3</div>
+                <img src="ds_pic1.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+                <img src="ds_pic2.png" style="width:100%">
+            </div>
+          
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+                <img src="ds_pic3.png" style="width:100%">
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+            <!-- Image text -->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <!-- Thumbnail images -->
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="ds_pic1.png" style="width:100%" onclick="currentSlide(1)" alt="Dhruv Setty with Yuri Wahati, Marketing Head">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="ds_pic2.png" style="width:100%" onclick="currentSlide(2)" alt="Dhruv Setty with Girijesh,  GEI Partner,  and Sanjay,  Angel Investor">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="ds_pic3.png" style="width:100%" onclick="currentSlide(3)" alt="Dhruv Setty with RS Shanbag, CEO of ValuePoint">
+              </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-navy">  
+    <div class="w3-xlarge w3-padding-32">
+        <a href="https://www.facebook.com/100378079322977"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://www.twitter.com/SettyDhruv"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.youtube.com/channel/UCBl5SGOjTAw7ChBdo_3gZwg"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+        <a href="https://linkedin.com/company/financial-literacy-committee"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <br>
+        <h6>Copyright © 2022 Financial Literacy Committee - All Rights Reserved.</h6>
+    </div>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+</body>
+</html>

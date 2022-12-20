@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Value Investing!</title>
+<meta charset="UTF-8">
+<link rel="icon" href="flcgraph-removebg-preview.png" type="image/x-icon">
+<link rel="shortcut icon" href="flclogo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+
+#bl{
+    text-decoration: none;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid navy;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: transparent;
+  border: 0px;
+  color: transparent;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer ;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+    <div class="w3-bar w3-navy w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-navy" href="javascript:void(0);"  onclick="myFunction()" title="Toggle Navigation Menu"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><img src="flcgraph-removebg-preview.png" height="35px" width="35px"></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large w3-white">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FLC Gallery</a>
+    </div>
+
+    <!-- Navigation Bar on smaller screens -->
+    <div id="navDemo" class="w3-bar-block w3-navy w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-padding-large">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-padding-large">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-padding-large">FLC Gallery</a>
+    </div>
+</div>
+
+<!-- Article -->
+<div>
+    <div class="grid-full-bleed">
+        <div class="centers pt-lg">
+
+            <!-- Title -->
+            <div class="w-100 grid-center">
+                <h1 class="ml-auto mr-auto font--headline mb-sm mt-sm">Value Investing!</h1>
+            </div>
+
+            <!-- Author -->
+            <div class="w-100 grid-center">
+                <div class="flex justify-center">
+                    <div class="flex-column flex items-center">
+                        <div class="mb-xxs flex" style="max-width:500px">
+                            <span>
+                                <div class="dib items-center">
+                                    <span>
+                                        <div class="dib font-xxs">
+                                            <span class="gray-darkest">By Vishruth Arimanda</span>
+                                        </div>
+                                    </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Date -->
+            <div class="mb-md mb-lg-ns font--subhead font-xxxs gray-dark" data-qa="timestamp">
+                <span data-qa="display-date" class="gray-dark">Apr 13 at 11:55 p.m. PST</span>
+            </div>
+
+            <!-- Image -->
+            <div class="grid-center grid-tablet-full-bleed">
+                <div>
+                    <div>
+                        <figure class="mb-md">
+                            <img src="blog-art2val.jpg" style="height: 700px; width: 1193px;">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Text -->
+            <div class="grid-center">
+                <div class="grid-center grid-body">
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Value investing is a strategy where investors aim to buy stocks, bonds, real estate, or other assets for less than they are worth. Investors who pursue value investing learn to uncover the intrinsic (actual) value of assets and develop the patience to wait until they can be purchased at prices that are lower than this intrinsic value. In this article, we'll look in detail at value investing, including its history, and how you can measure the intrinsic value of companies and assets.
+                    </h4>
+                    <h3>
+                        What is Value Investing?
+                    </h3>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Value investing is nothing more or less than buying investments on sale. The origins of value investing go back to research by legendary investors Benjamin Graham and David Dodd in the 1920s when both men began teaching at Columbia Business School. Many of the concepts of value investing are described in their book, “Security Analysis,” and Graham's book, “The Intelligent Investor.” Warren Buffett, one of the most successful investors in the world, is a practitioner of value investing and was a student of Graham's at Columbia. Value investing starts from the premise that an investor who buys stock in a company owns part of the business. While this may seem obvious, many investors “play the market” much like a casino without regard to the underlying fundamentals and the actual financial health of the companies they own. Acting as a business owner, the investor should evaluate the financial statements of companies to assess their intrinsic values. This type of evaluation is known as fundamental analysis. People rarely come up with a company's intrinsic value using a single number or statistic but rather, due to the many assumptions that go into valuing a company. The Intrinsic value price of a company or assent often lies in a range. This lack of precision shouldn't concern an investor. In the words of Warren Buffett, “It is better to be approximately right than precisely wrong.” Value investors will consider investing in a company whose price is at or below its intrinsic value.
+                    </h4>
+                    <h3>
+                        How to Calculate Intrinsic Value?
+                    </h3>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Calculating a company's intrinsic value involves determining the present value of a company's future earnings minus any liabilities or debt that a company may incur. This in turn requires estimating future earnings and the necessary cost to achieve those earnings for a company and all possible trends/events that may affect this number. Given these assumptions, it's easy to understand why the intrinsic value of a range is often rather than a precise number. There are many metrics that some use to determine whether a company is selling below its intrinsic value. While none of these should be relied upon blindly, they can be a helpful starting point.
+                    </h4>
+                    <h3>
+                        Intrinsic Value Using a P/E Ratio
+                    </h3>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Price to earnings, or the P/E Ratio, compares a company's stock price to its annual earnings. This means that a company with a P/E ratio of 15 is trading at 15x their current earnings. To put it another way, that company will take 15 years (at the company's current earnings) to equal the cost of the current share price. The lower the P/E ratio, the more likely the company is considered a value stock. While no fixed level automatically qualifies a stock as a value investment, the PE ratio should be lower than the average P/E ratio of the market or sector. Please keep in mind a low P/E ratio should not solely be used when determining whether a company is undervalued.
+
+                        In conclusion, Value investing is a solid approach to investing long term. It focuses on the fundamental analysis of a company and calculating its intrinsic value. From there, value investors look to buy solid companies at or below their intrinsic value. It's not, however, the only sound approaches an investor can follow.<br><br>
+                        That was all in this FLC article! Stay tuned for more information! Make sure to subscribe for updates!<br><br>
+
+                        Share this post: <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/" target="blank"><i class="fa fa-twitter"></i></a> <a href="http://www.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a><br>
+                        <a href="ourblogs.html"> &lt;-- Back to Our Blogs.</a>
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Subscribe -->
+<div class="w3-row-padding w3-container w3-navy" style="padding: 96px">
+    <div class="w3-content">
+        <div class="news-form-group">
+            <h1 style="margin-bottom: 15px;">Subscribe to our newsletter for more blogs!</h1>
+            <form id="news-form-id" class="" method="post">
+                <label for="Email" class="news-label"><h3>Email</h3></label>
+                <div class="news-input-group">
+                    <input type="email" id="eemail" name="Eemail" class="news-form-control" style="border: none; background-color: transparent; border-bottom: 3px solid white; color: white;" required>
+                </div>
+
+                <br>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"><h6>Submit</h6></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Our Partners -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-navy">
+    <div class="w3-content">
+        <h1 style="padding-bottom: 32px;">Our Partners</h1>
+        <a href="https://www.sammamish.us/"><img src="samm.jpg" target="blank"></a>
+        <a href="https://finandme.com/"><img src="finandme.png" height="137px" width="600px" style="float: right;" target="blank"></a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-navy">  
+    <div class="w3-xlarge w3-padding-32">
+        <a href="https://www.facebook.com/100378079322977"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://www.twitter.com/SettyDhruv"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.youtube.com/channel/UCBl5SGOjTAw7ChBdo_3gZwg"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+        <a href="https://linkedin.com/company/financial-literacy-committee"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <br>
+        <h6>Copyright © 2022 Financial Literacy Committee - All Rights Reserved.</h6>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mortgages</title>
+<meta charset="UTF-8">
+<link rel="icon" href="flcgraph-removebg-preview.png" type="image/x-icon">
+<link rel="shortcut icon" href="flclogo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+
+#bl{
+    text-decoration: none;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid navy;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: transparent;
+  border: 0px;
+  color: transparent;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer ;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+    <div class="w3-bar w3-navy w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-navy" href="javascript:void(0);"  onclick="myFunction()" title="Toggle Navigation Menu"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><img src="flcgraph-removebg-preview.png" height="35px" width="35px"></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large w3-white">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FLC Gallery</a>
+    </div>
+
+    <!-- Navigation Bar on smaller screens -->
+    <div id="navDemo" class="w3-bar-block w3-navy w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-padding-large">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-padding-large">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-padding-large">FLC Gallery</a>
+    </div>
+</div>
+
+<!-- Article -->
+<div>
+    <div class="grid-full-bleed">
+        <div class="centers pt-lg">
+
+            <!-- Title -->
+            <div class="w-100 grid-center">
+                <h1 class="ml-auto mr-auto font--headline mb-sm mt-sm">Mortgages</h1>
+            </div>
+
+            <!-- Author -->
+            <div class="w-100 grid-center">
+                <div class="flex justify-center">
+                    <div class="flex-column flex items-center">
+                        <div class="mb-xxs flex" style="max-width:500px">
+                            <span>
+                                <div class="dib items-center">
+                                    <span>
+                                        <div class="dib font-xxs">
+                                            <span class="gray-darkest">By Misha Check</span>
+                                        </div>
+                                    </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Date -->
+            <div class="mb-md mb-lg-ns font--subhead font-xxxs gray-dark" data-qa="timestamp">
+                <span data-qa="display-date" class="gray-dark">Sep 9 at 7:26 p.m. PST</span>
+            </div>
+
+            <!-- Image -->
+            <div class="grid-center grid-tablet-full-bleed">
+                <div>
+                    <div>
+                        <figure class="mb-md">
+                            <img src="blog-art6mort.jpg" style="height: 700px; width: 830px;">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Text -->
+            <div class="grid-center">
+                <div class="grid-center grid-body">
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Owning a home has always been one of the integral parts of the American dream. Mortgages are a way to buy a home even if the buyer doesn't have all the cash just sitting around. Now, at a young age, the concept of mortgages and homeownership may seem daunting, but it can be broken down into simple parts, which will discuss.
+                    </h4>
+                    <h3>
+                        Mortgage Basics
+                    </h3>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        A mortgage, as a term, is an agreement between the person buying the home and the mortgage lender so the buyer can buy a home without having the full payment upfront. In short, this legally allows the lender to take the buyer's property if they cannot meet payment terms. Now, this may sound exactly like what a loan is, and even though a mortgage is a type of loan, not all loans are mortgages. Mortgages fit into the category of “secured” loans, where if the borrower stops making payments, the lender can take possession of the home.  
+                    </h4>
+                    <h3>
+                        Different Mortgage Parties
+                    </h3>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        In the previous paragraphs, words such as “borrower” and “lender” were used, but what do they mean?
+                    </h4>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Lender - A lender is a financial organization responsible for loaning money to buy a home and is commonly a bank, credit union, or a specific mortgage company. The lender will take the buyer's information and make sure it meets their standards. Every lender has different standards, and they need to make sure their loans will be repaid. To determine if the buyer will be able to make their payments, the lender looks at their full financial profile, with items such as credit score, income, assets, and debt.<br><br>
+
+                        Borrower - A borrower, as the name suggests, is the individual borrowing money to buy a home. Borrowers can apply as single borrowers or co-borrower. More borrowers may allow for approval on more expensive loans.<br><br>
+
+                        Co-Signer - Lenders may ask the borrower to find a co-signer in case of negative or non-existent credit history. A co-signer enters a legal contract that binds them into paying the mortgage if the borrower is unable to make payments. The co-signer must do this with or without rights of ownership.<br><br>
+                    </h4>
+                    <h3>
+                        How to Obtain Mortgages
+                    </h3>
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        With a regular job, enough income, and a good credit score, the mortgage loan process is simple. Even so, multiple steps need to be taken to become a homeowner:
+                    </h4>
+                    <ol>
+                        <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        <li>
+                            Preapproval - A mortgage lender can make an initial approval estimate so the buyer doesn't shop for homes outside their budget. Many real estate agents require preapproval before the first meeting. Mortgage preapproval means the lender has verified their finances and written a letter of preapproval for sellers and real estate agents that can be attached when an offer is made. 
+                        </li>
+                        <li>
+                            Shop For a Home and Make the Offer - Real estate agents and online platforms make great ways to tour homes in the area. They can help find the right home and price and handle the paperwork and other financial details.  
+                        </li>
+                        <li>
+                            Get Final Approval - After the offer has been accepted, the lender will verify the details of the mortgage, the buyer's finances, and property details. Appraisals can be involved to confirm the home's value and inspections to ensure the home's condition is up to par. A title company will also be hired to confirm the home has no issues that could cause future selling problems. 
+                        </li>
+                        <li>
+                            Close on the Loan - Once the loan is approved, a meeting is initiated with the lender and agent to pay the down payment and closing costs and sign mortgage papers. The borrower now has ownership of the home. 
+                        </li>
+                    </h4>
+                </ol>
+                    <h3>Summary</h3> 
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">Homeownership takes a lot of time, money, and effort, but the effects are meaningful. There is a lot more to learn about mortgages, and this article was just the beginning. It's important to take the time to research more about home buying before starting the journey, but every step of the way is worth the end goal.</h4> 
+
+
+                    <h4>
+                        That was all in this FLC article! Stay tuned for more information! Make sure to subscribe for updates!<br><br>
+
+                        Share this post: <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/" target="blank"><i class="fa fa-twitter"></i></a> <a href="http://www.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a><br>
+                        <a href="ourblogs.html"> &lt;-- Back to Our Blogs.</a>
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Subscribe -->
+<div class="w3-row-padding w3-container w3-navy" style="padding: 96px">
+    <div class="w3-content">
+        <div class="news-form-group">
+            <h1 style="margin-bottom: 15px;">Subscribe to our newsletter for more blogs!</h1>
+            <form id="news-form-id" class="" method="post">
+                <label for="Email" class="news-label"><h3>Email</h3></label>
+                <div class="news-input-group">
+                    <input type="email" id="eemail" name="Eemail" class="news-form-control" style="border: none; background-color: transparent; border-bottom: 3px solid white; color: white;" required>
+                </div>
+
+                <br>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"><h6>Submit</h6></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Our Partners -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-navy">
+    <div class="w3-content">
+        <h1 style="padding-bottom: 32px;">Our Partners</h1>
+        <a href="https://www.sammamish.us/"><img src="samm.jpg" target="blank"></a>
+        <a href="https://finandme.com/"><img src="finandme.png" height="137px" width="600px" style="float: right;" target="blank"></a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-navy">  
+    <div class="w3-xlarge w3-padding-32">
+        <a href="https://www.facebook.com/100378079322977"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://www.twitter.com/SettyDhruv"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.youtube.com/channel/UCBl5SGOjTAw7ChBdo_3gZwg"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+        <a href="https://linkedin.com/company/financial-literacy-committee"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <br>
+        <h6>Copyright © 2022 Financial Literacy Committee - All Rights Reserved.</h6>
+    </div>
+</footer>
+
+</body>
+</html>

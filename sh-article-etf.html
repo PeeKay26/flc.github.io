@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ETFs</title>
+<meta charset="UTF-8">
+<link rel="icon" href="flcgraph-removebg-preview.png" type="image/x-icon">
+<link rel="shortcut icon" href="flclogo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+
+#bl{
+    text-decoration: none;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid navy;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: transparent;
+  border: 0px;
+  color: transparent;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer ;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+    <div class="w3-bar w3-navy w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-navy" href="javascript:void(0);"  onclick="myFunction()" title="Toggle Navigation Menu"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small"><img src="flcgraph-removebg-preview.png" height="35px" width="35px"></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large w3-white">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FLC Gallery</a>
+    </div>
+
+    <!-- Navigation Bar on smaller screens -->
+    <div id="navDemo" class="w3-bar-block w3-navy w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutus.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+        <a href="ourblogs.html" class="w3-bar-item w3-button w3-padding-large">Our Blogs</a>
+        <a href="ourevents.html" class="w3-bar-item w3-button w3-padding-large">Our Events</a>
+        <a href="ourpodcasts.html" class="w3-bar-item w3-button w3-padding-large">Our Podcasts</a>
+        <a href="flcgallery.html" class="w3-bar-item w3-button w3-padding-large">FLC Gallery</a>
+    </div>
+</div>
+
+<!-- Article -->
+<div>
+    <div class="grid-full-bleed">
+        <div class="centers pt-lg">
+
+            <!-- Title -->
+            <div class="w-100 grid-center">
+                <h1 class="ml-auto mr-auto font--headline mb-sm mt-sm">Exchange Traded Funds (ETFs)</h1>
+            </div>
+
+            <!-- Author -->
+            <div class="w-100 grid-center">
+                <div class="flex justify-center">
+                    <div class="flex-column flex items-center">
+                        <div class="mb-xxs flex" style="max-width:500px">
+                            <span>
+                                <div class="dib items-center">
+                                    <span>
+                                        <div class="dib font-xxs">
+                                            <span class="gray-darkest">By Vishruth Arimanda</span>
+                                        </div>
+                                    </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Date -->
+            <div class="mb-md mb-lg-ns font--subhead font-xxxs gray-dark" data-qa="timestamp">
+                <span data-qa="display-date" class="gray-dark">Oct 23 at 8:31 p.m. PST</span>
+            </div>
+
+            <!-- Image -->
+            <div class="grid-center grid-tablet-full-bleed">
+                <div>
+                    <div>
+                        <figure class="mb-md">
+                            <img src="blog-art7etf.jpg" style="height: 700px; width: 1193px;">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Text -->
+            <div class="grid-center">
+                <div class="grid-center grid-body">
+                    <h4 class="font--article-body font-copy pb-md ma-0 gray-darkest">
+                        Now that we know how to set up an account to invest in and a couple of different investing strategies we are going to dive deeper into a particularly useful financial product called an ETF.<br><br>
+                        Now you may have heard of an ETF and if you haven't that's totally fine in this article I'm going to cover everything related to an ETF to make you the most prepared investor you can be. First, we are going to start off with the essential question of what exactly is an ETF? Well, an ETF or exchange-traded fund is a type of investment vehicle that allows you to invest in a basket of assets in one go. Think of it like a single stock that owns a small piece of every company in a particular industry, sector, index, etc.<br><br>
+                        An example of this would be the S&P 500 ETF from SPDR (Ticker Symbol: SPY). This ETF holds a small piece of every company in the S&P 500 and buying it can be particularly helpful if you want to diversify your portfolio without having to go through the tedious effort of buying shares of every single company in the index. The great thing about ETFs is that they trade on stock exchanges and can be bought and sold just like regular stocks.<br><br>
+                        Now, what are the pros and cons of Investing in ETFs? Well, the pros are that they provide instant diversification at the push of a button and are great for investors who don't have time to check the market or trade on a frequent basis. Now some of the cons of investing in an ETF is that due to their diversification they may not go up as fast as one or two individual stocks inside the ETF since there may be other stocks dragging those individual returns down. Another con is that most ETFs provide very little in terms of dividends (If you are unsure about what dividends are I highly recommend you check out our article on the subject) compared to owning one or two individual stocks with a much higher dividend yield.<br><br>
+                        Overall, ETFs are a fantastic addition to any investment portfolio and are great for novice and complex investors alike for those wanting to build long-term wealth.<br><br>
+
+                        That was all in this FLC article! Stay tuned for more information! Make sure to subscribe for updates!<br><br>
+
+                        Share this post: <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/" target="blank"><i class="fa fa-twitter"></i></a> <a href="http://www.linkedin.com/" target="blank"><i class="fa fa-linkedin"></i></a><br>
+                        <a href="ourblogs.html"> &lt;-- Back to Our Blogs.</a>
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Subscribe -->
+<div class="w3-row-padding w3-container w3-navy" style="padding: 96px">
+    <div class="w3-content">
+        <div class="news-form-group">
+            <h1 style="margin-bottom: 15px;">Subscribe to our newsletter for more blogs!</h1>
+            <form id="news-form-id" class="" method="post">
+                <label for="Email" class="news-label"><h3>Email</h3></label>
+                <div class="news-input-group">
+                    <input type="email" id="eemail" name="Eemail" class="news-form-control" style="border: none; background-color: transparent; border-bottom: 3px solid white; color: white;" required>
+                </div>
+
+                <br>
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"><h6>Submit</h6></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Our Partners -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-navy">
+    <div class="w3-content">
+        <h1 style="padding-bottom: 32px;">Our Partners</h1>
+        <a href="https://www.sammamish.us/"><img src="samm.jpg" target="blank"></a>
+        <a href="https://finandme.com/"><img src="finandme.png" height="137px" width="600px" style="float: right;" target="blank"></a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-navy">  
+    <div class="w3-xlarge w3-padding-32">
+        <a href="https://www.facebook.com/100378079322977"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+        <a href="https://www.twitter.com/SettyDhruv"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.youtube.com/channel/UCBl5SGOjTAw7ChBdo_3gZwg"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+        <a href="https://linkedin.com/company/financial-literacy-committee"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <br>
+        <h6>Copyright © 2022 Financial Literacy Committee - All Rights Reserved.</h6>
+    </div>
+</footer>
+
+</body>
+</html>
